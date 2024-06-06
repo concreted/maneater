@@ -29,3 +29,7 @@ h1, h2, h3 {
 p.author { 
   text-align: center
 }
+
+#section + p {
+  text-align: center
+}
