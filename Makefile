@@ -4,7 +4,7 @@ epub:
 	pandoc frontmatter.md maneater.md copyright.md title.txt -c epub.css -o maneater.epub --standalone
 
 html:
-	pandoc frontmatter.md maneater.md copyright.md title.txt -c html.css -o maneater.html --standalone
+	pandoc links.md frontmatter.md maneater.md copyright.md title.txt -c html.css -o maneater.html --standalone
 	cp maneater.html index.html
 
 pdf:

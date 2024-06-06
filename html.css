@@ -45,3 +45,8 @@ p.author {
   text-align: center;
   font-size: 12px;
 }
+
+.links + p {
+  text-align: center;
+  font-size: 12px;
+}
