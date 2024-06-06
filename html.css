@@ -39,6 +39,9 @@ p.author {
 
 .dedication + p {
   text-align: center;
-  font-size: 16px;
-  font-weight: normal;
+}
+
+.copyright + p {
+  text-align: center;
+  font-size: 12px;
 }
