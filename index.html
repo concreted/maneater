@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="aric huang" />
+  <title>maneater</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="html.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">maneater</h1>
+<p class="author">aric huang</p>
+</header>
+<h1 class="dedication" epub:type="dedication" id="section"></h1>
+<p>For my father, the eclipsed sun</p>
+<h1 id="section-1">1</h1>
+<p>Dent was looking absentmindedly at the courtyard lights through the
+apartment gym’s window when he felt a hand on his shoulder. Pressing the
+button to reduce speed on his treadmill, he slowed to a walking pace and
+took one earpiece out. Next to him was a tall, impressively muscular
+man, hand now gesturing toward Dent’s legs.</p>
+<p>“Good form, you run long distance? Marathons?”</p>
+<p>“I have, yeah.” Faded thoughts of sun, rain, burning muscles, and
+celebratory drinks.</p>
+<p>“I’m Thomas, I live on B48.” His hand now opened into one half of a
+handshake. His face was gentle and somehow soft. Dent put out his hand
+and completed the other half.</p>
+<p>“Dent. Nice to meet you”.</p>
+<p>“Mind if I run next to you? To be honest I’ve been wanting some help
+with my running. If you had some tips for me I’d be grateful.”</p>
+<p>Dent was happy to share what he knew. For a time they shared a
+friendly distance as fellow athletes. Neither man was prone to bragging
+or excessive pride, and as Dent shared his stories of races won and lost
+and Thomas shared those of his time in the Space Marines, they came to a
+place of mutual respect and friendship.</p>
+<hr />
+<p>“Do you think they’ll renew your contract?” Thomas asked. They sat on
+a bench next to the apartment’s coffee stand, still damp from the cold
+night air, and watched a delivery bot ascend the stairs with crab-like
+legs. The line for coffee winded around the small courtyard.</p>
+<p>“No, I don’t think so. They only need security during construction,
+after that they’re automating everything.”</p>
+<p>“I’ll have to find something after mine is up too. What do you think
+of this?” Dent saw a flash in Thomas’s left eyeball as something
+appeared on his retinal display, and he pointed at Dent. Dent’s wrist
+computer vibrated and he opened the message.</p>
+<blockquote>
+<p>Security Officer<br />
+Arc Security - Romi 71 - 2 months ago</p>
+<p>Position Overview</p>
+<p>Provide safety and security to colony residents, visitors, and
+personnel. Patrol and monitor facilities. Observe, report, and respond
+to unauthorized activities and anomalous situations. Assist staff with
+any security-related services, including equipment
+installation/automation, personnel escort, and security planning.</p>
+</blockquote>
+<p>“I’ve heard of Romi. Someone sent me a video, it looks nice.”
+‘Someone’ was Dent’s sister Sarah, who hadn’t come up yet in their
+conversations. She was looking for a place to settle with her family and
+had been sending videos to Dent almost daily. Each place looked pristine
+and uniformly lovely in the clips she shared, Romi included. He tried to
+remember what about it was supposed to be special. Forests? Beaches?
+Canyons?</p>
+<p>“The ocean looks amazing, right?” Beaches. “The infrastructure is in
+place and listings are starting to go up. I think it’s a good time to
+get in.”</p>
+<p>Dent felt his hands clasp tighter around his coffee. Its warmth
+spread deeper into his palms and he breathed out a cloud into the winter
+air. He thought about hot sun and sand underfoot, and the feeling of
+being suspended in the waves.</p>
+<h1 id="section-2">2</h1>
+<p>Being of modest means, Dent had only ever traveled sub-light. The
+thought of being put under, frozen, and placed in the motion dampening
+units necessary for near-light brought back a memory from childhood. An
+normal-looking freezer at this friend’s house turned out to be filled
+with gallon-size plastic bags, each packed tight with frozen mouse
+corpses. “For the snakes”, he explained, seeing Dent’s alarmed
+expression. Dent was no longer so alarmed after this explanation, but
+the image of countless mouse bodies pressed into piles of flesh remained
+an uncomfortable memory.</p>
+<p>Thomas had no such discomfort or unpleasant associations with the
+idea of near-light travel. Having been introduced to the practice at a
+relatively young age upon entering the armed forces, he saw it as little
+different from a standard atmospheric flight or trip through the solar
+system. If anything it was more pleasant than any of those. One drifted
+off in the comforting vibration of the stasis pod and awakened on a new
+world, the old one fading from mind as quickly as a dream.</p>
+<p>As Dent came to inside his pod, most other passengers had already
+awoken and were well into their 30-minute post-stasis observation
+period, stretching and conversing amongst themselves. The sterile
+chambers they had traveled in became lively and casual as people lounged
+in and around their pods, walked laps around the room, and formed
+circles to share updates from the 3 months they had just slept through.
+Amidst the bustle and immediate practical concerns of arriving on a new
+planet, Dent’s life on Earth and his frozen mice faded from mind.</p>
+<p>Stepping out of the spaceport, wind whipped constantly and
+unpredictably around him as he watched Thomas arrive in a small shuttle.
+On the flight to the housing complex, Thomas explained that the winds
+were caused by the air scrubbers being run at higher speeds than normal.
+As the normal temperature on Romi would be unbearably hot, the scrubbers
+also worked to cool the air. Normally they were not supposed to cause
+excessive wind, but Thomas told Dent that they were being run harder in
+preparation for more people to arrive.</p>
+<p>Aside from the unnatural wind and the rocky surface being a verdant
+green that could easily be mistaken for fields of grass, to Dent the
+most unusual thing about Romi was its openness. On their drive they
+passed untouched fields and hills, and the occasional vegetable or
+livestock farm. The first colonists of Romi were farmers, brought years
+in advance to determine the farming practices necessary to establish
+agriculture on the new planet. Romi had been positioned as a “homestead”
+planet, where settlers could spread out and be more in touch with a
+relatively pristine natural world. Rather than fully terraform the
+planet as most were, the architects had opted for an intentionally more
+old-fashioned approach.</p>
+<p>Their housing complex was a modestly sized apartment block, about a
+quarter the size of one on Earth. Still, it was large enough to house
+several thousand. Outside, a young couple strolled with their toddler
+son. While the couple seemed slightly uncomfortable in the wind, the
+child seemed unbothered and kept stopping his parents to point out some
+object of interest along the path or off in the distance. One of these
+was Thomas and Dent’s van, and the child waved at the two of them as
+they stepped out and unloaded Dent’s belongings. They waved back, and
+Dent thought of his two nieces and his own potential future children,
+and whether Romi might be the place they would be born.</p>
+<p>As he was required to spend a few days acclimatizing and having
+medical tests done before being able to start work, Dent spent them
+exploring the habitable zone. The planet’s space dock and main
+settlement were on a small landmass named Georges Island, with the
+habitable zone covering it and a few smaller islands nearby. Each
+morning after Thomas went to work, Dent boarded the shuttle and had it
+take him to some location of interest. Close to the housing complex was
+the “town”, a collection of mostly empty buildings waiting for tenants.
+The only open businesses were a grocery store, a hardware fabricator,
+and a few food stalls. The owner of one stall selling stewed meat and
+lentils told Dent, “It’s quiet now but not for long. In a few months
+this place will be swarming with people.”</p>
+<p>For now though Dent felt that the whole planet was empty and
+isolated. He had grown up in the crushing overpopulation of Earth, where
+privacy and solitude in spaces larger than a sleeping pod was something
+reserved only for the very wealthy. Being the only person in a store or
+standing on the street or lying on a beach was something he’d rarely
+experienced before, and those occasions had been too brief for him to
+fully process the experience. Now that it was the normal state of
+things, it felt like something he’d always wanted without knowing. On
+his last few rest days, he had the shuttle take him away from the
+populated areas, over hills and through forests. Eventually the path
+would end at the sea, and Dent would get out and walk across the beach.
+Instead of people, around him were plants, insects, lizards, and the
+occasional bird.</p>
+<p>Lying on the pale green sand of one of those beaches, Dent had
+started to doze off when a movement in the distance made him sit up. A
+group of five tall animals made their way out of the brush next to the
+beach with slow, careful movements, walking on all fours like some large
+ape or sloth. They seemed larger than an average human, and with much
+longer limbs. Looking closer, he noticed their elongated jaws, jutting
+out cat-like from their faces. They placed their limbs with great care,
+gradually crossing the sand and coming to the water’s edge. There they
+paused for a time, gazing across the water. The two largest then stepped
+into the water and moved off, limbs still moving carefully but now with
+more force as they swam against the waves. The three smaller followed in
+single file, and while they seemed to struggle a bit against the
+current, they quickly caught up with the other two and the group swam
+away, heads bobbing up and down with the waves, until they were no
+longer visible.</p>
+<h1 id="section-3">3</h1>
+<p>Dent had gotten to know many of the residents in the housing complex
+in his first few weeks on the job. A childhood on crowded Earth made him
+quite socially comfortable, and although he had lived a generally
+unattached life, Dent had always taken an interest in other people. He
+found it easy to make friends, and just as easy to move on from them,
+which did concern him a little.</p>
+<p>The young couple turned out to be climate system technicians who met
+at training on Luna. Their child was born shortly after they were
+married two years ago, and they had dreams of raising a family on a
+quieter planet. On a house call to fix a malfunctioning door sensor, he
+met a stressed-looking shipping company executive, an older woman with a
+prominent neural accelerator unit on the back of her head, who spoke a
+little too quickly and whose attention seemed to wander every time Dent
+tried to answer her questions. Charles, a real estate agent who
+initially was quite standoffish and even rude to Dent the other security
+staff, gradually became one of Dent and Thomas’s good friends and would
+join them on their morning runs. He confided in them about his
+difficulty adjusting to life away from Earth. “I miss the people and the
+energy. It just feels empty here, like nothing is happening. I know you
+guys like it but I guess I’m just too much of a city person.”</p>
+<p>They all knew that eventually Charles would get what he wanted. More
+and more ships were arriving at the spaceport, bringing new residents,
+visitors, workers, equipment, and supplies. The security team’s workload
+steadily increased, and Dent’s life became a blur of productive,
+fulfilling activity. At the end of most days, he felt like he had worked
+hard and made a difference in the lives of those around him. When he
+couldn’t get in an elevator because it was full, or the first crime
+reports started coming in, or trash started to appear on the beaches, he
+sometimes felt a vague sense of unease. However this was quickly
+forgotten with the start of a new day and new problems to solve.</p>
+<p>One of those problems was a nearby livestock farm’s request for help.
+At the farm Dent and Thomas met Sean, who showed him his chickens and
+goats. Over a pile of nuts and fruits, Sean talked at length about his
+experiences in the first years of settling on Romi. Back then, without
+the network of air scrubbers covering the habitable zone, the scorching
+heat and slightly toxic atmosphere required the use of full-body suits
+and bottled oxygen when outdoors. “We could gen-mod the animals and
+plants to handle the air here, but not us poor suckers,” he said
+laughing. “Now that we made it work, people are coming, they bring in
+the air cleaners and guess what? Now we have to mod the stock back to
+the way they were! Isn’t that ridiculous?” Dent and Thomas murmured
+their agreement, but Sean could sense they were not really interested,
+and his tone became a little less friendly.</p>
+<p>“Anyway I didn’t call you just to chat. I called you here because
+something is killing my animals. This has never happened before, and
+none of the wildlife here eats goats or chickens. I think someone who
+just came here is doing this, and I want you to help me catch them.”
+This caught their attention more than the previous topic, and they began
+pressing Sean for details. The picture they were able to put together
+was that once every few days, some of the livestock would be killed when
+they were set loose to graze and roam the farmland. The dead would have
+their skulls cracked open and missing large pieces, or in the case of
+smaller animals be missing their heads entirely. The rest of the body
+would be covered in bruising and other blunt force injury, appearing to
+have been beaten. There were no signs that the animals were being hunted
+as prey, as the bodies were otherwise intact. This and the lack of
+similar previous cases made Dent and Thomas agree that this was probably
+done by some sadistic recent arrival.</p>
+<p>Dent surveyed the farm perimeter and installed additional proximity
+sensors to fill in gaps in the network, while Thomas filled out case
+forms and requisitioned a set of autonomous camera drones. These would
+connect to the sensor network and quickly fly to the site of any
+activity. From a distance they also looked and behaved almost
+indistinguishably to a small crow or jay bird, which would help them
+follow a surveillance target unnoticed. The drones arrived after a few
+hours and after running through a few test scenarios, they left Sean
+with instructions to simply let the system respond to any new intrusion
+and identify the intruder, so that police could be notified. Perhaps
+responding to his own instincts, Thomas felt it necessary to also
+recommend that Sean not take any action on his own to confront the
+intruder. Sean laughed and assured them, “I wouldn’t do that. I don’t
+even want to know who did it, I just want them dealt with. In all my
+years here I never felt scared, but it scares me to know there’s people
+like this here now.”</p>
+<p>While Dent didn’t feel the same kind of fear, he could understand it.
+While crime was much higher on Earth, he had quickly become used to the
+comparatively peaceful conditions on Romi. But that peace made it stand
+out all the more when apartments were broken into, or when a pet went
+missing, or when someone was assaulted or robbed in public. Each time
+something like this happened, Dent or his team would be involved in some
+way, either directly responding to the case or discussing changes to
+policy or procedures. There was a part of him that took comfort in the
+fact that something could always be done - if not to help those directly
+involved, then to help those who could be harmed in the future. There
+was another part of him that thought that on Earth, where policies and
+procedures had been iterated on for centuries in an endless cycle of
+human existence, surely everything he could think of had been done and
+found lacking at some point.</p>
+<p>He tended to become more aware of that part of him on days when he
+walked down now familiar forest paths to the beach. While he often spent
+time with Thomas and Charles in the gym or after work sharing meals or
+drinks, he found himself unable to invite them on these days. Instead of
+running or swimming with the intent of training, he would stroll slowly
+down the beach for a time before entering the water and floating on his
+back. The water was cool but the sun was startlingly hot on his face,
+and as his body was carried by the waves he pictured himself as a piece
+of driftwood, burned on one side and washed away on the other until
+paper thin, before breaking apart and becoming ash dissolving into the
+water. On those days he could think of no solutions or things to be
+done. His thoughts were of being eaten away by time, eaten away so
+completely that no trace could be found anywhere in the universe. His
+parents, now present only in memories. He, his sister and his friends,
+currently in the prime of life. His nieces, still children. His own son
+or daughter, not even born yet. He thought of all the people he knew,
+and all those he didn’t know, dissolving away into the sea of existence.
+He wondered whether, in the far future, if some being existed that
+looked upon that sea, it could perceive any trace of the thoughts,
+emotions, and lives of those people somewhere in its waves. More likely
+there would be no trace at all, and the waves would look the same then
+as they did before the first human was born, and the same as when this
+being and its kin were gone. Gradually his thoughts would become more
+vague and unformed until he stopped thinking about anything in
+particular.</p>
+<hr />
+<p>The next few weeks were difficult for Dent and the other residents.
+Systemic issues with the air scrubbers led to poor air quality and
+rising temperatures, and the use of filter masks and personal oxygen
+bottles became necessary when outdoors. Dent was glad that his sister,
+who had decided to stay on Earth and move into a luxury apartment
+following her husband’s promotion, seemed to be happy and doing well
+when they spoke on their monthly calls. Sarah seemed clearly worried
+about her brother’s safety and well-being in the midst of these
+problems, but Dent sensed a certain self-satisfaction at her choice to
+stay on Earth.</p>
+<p>Frustrations and worries about the situation on Romi led to an
+increase in thefts and disputes over the purchase of food and essential
+supplies. Dent and the security team were stretched very thin responding
+to these situations, and every day turned into an exhausting struggle
+against an ever increasing list of urgent priorities. The fulfillment
+that Dent usually found in his work transformed into a weight that
+seemed to press on him even in his increasingly rarer moments of rest.
+He found less and less time for leisure with his friends, and being out
+in nature became impractical with the heat and air problems. Thomas
+remained steadfastly calm and controlled throughout everything, and
+Dent’s appreciation for his friend grew. He guessed that Thomas had gone
+through much more stressful things in the Marines. Their evenings were
+often spent eating in silence side by side in the stalls of a noodle
+shop, then having a few drinks in their apartment as they shared details
+of ongoing cases and strategized about what steps to take next. The
+fast-metabolizing alcohol’s intoxicating effects would already be
+dissipating by the time they showered and fell asleep, and completely
+gone by the time they woke early in the morning.</p>
+<p>Days and weeks passed this way as an unsatisfying collection of small
+victories, quickly followed by new and more difficult problems. While
+new procedures and increased security presence led to a significant
+decrease in thefts and missing inventory at the shipping yards, the
+arrival of technicians to repair the air scrubbers was still weeks away.
+As they reviewed their monitoring dashboards late at night at the end of
+another long day, Thomas told Dent he’d read that the planetary
+architects were now questioning the use of air scrubbers and were
+debating various other solutions instead. Some other officers overheard
+and joined in to discuss their impressions of the different approaches,
+and speculate on what would end up happening. Thomas was in the midst of
+describing a new technique (something involving catalysts that would
+react with native chemicals in the atmosphere) when they received an
+alert from Sean’s livestock farm. Dent’s excitement about a potential
+breakthrough in that case turned almost immediately to dread. The report
+stated that while footage of an intruder had been captured, it had not
+been able to make an identification. In addition, the activity
+recognition system indicated that some altercation or other violent
+activity had occurred. As he opened the video file, Dent felt as if his
+consciousness had left his body and was floating freely around the
+room.</p>
+<p>The camera drone’s footage initially showed it scanning the horizon
+before its attention was captured by a dark shape at the far end of the
+bare patch of terrain in front of the farmhouse. From its vantage point
+perched on the farmhouse roof, the camera zoomed in on the shape as it
+slowly and carefully stepped on four limbs to the edge of the light from
+the windows. Light caught a pair of expressionless eyes, which stared
+intently past the camera’s view. Its pupils dilated wide as it seemed to
+react to some activity in its sight, and its body tensed into a low
+crouch. The next instant it was out of sight, and the next few seconds
+were a jumble of unrecognizable frames as the drone flew from the roof
+and attempted to get the subject back in sight. It settled across the
+farmhouse among some reedy plants in time to capture a clear shot of the
+creature pinning the farmer to the ground with no apparent difficulty.
+As Sean struggled uselessly, the camera zoomed in on the creature. It
+seemed to consider the mask covering Sean’s face with idle curiosity
+before one limb shot out with shocking speed and sent the mask flying.
+Sean’s head was still rocking back and forth from the impact, his body
+going limp as he apparently lost consciousness, as the creature raised
+both arms and beat him all over his body, distorting it into unnatural
+shapes. Abruptly stopping and observing the farmer’s broken, motionless
+form, the creature lifted the body up and its jaws opened revealing long
+rows of thick blunt teeth. The jaws closed around Sean’s skull and
+cracked it open easily, blood and brain matter convulsing out of the
+opening. Suddenly the screen turned black and Dent was looking at his
+own face, breathing hard, grim and slightly pale. He became aware of his
+hands gripping the table’s edge. One of the other officers was no longer
+in the room, and the other was leaning back and staring into the
+ceiling. Thomas’s hand moved from the screen’s power button to Dent’s
+shoulder.</p>
+<p>At the farmhouse, Dent watched the medics collect Sean’s body and
+biologists take samples around the area. One of the biologists told Dent
+that the animal in the footage was well-known to them from initial
+surveys of the planet as nomadic animals that traveled in small groups.
+Its main food source was a thick-shelled gourd or melon-like fruit,
+which grew abundantly in the hot Romi air. Like most of the planet’s
+indigenous life, it was categorized as a low risk to humans as it seemed
+to stay far away from human structures. “What we’ve seen is they tend to
+leave an island altogether once a human presence is established. They’re
+not territorial, so we’re not sure why this one became aggressive. We
+try to leave the native life alone if the risks are low, but we’ll have
+to reevaluate now that we know deviants like this one exist.”</p>
+<p>Although Dent sent a command for the camera drones to assemble at the
+farmhouse for maintenance, one of them failed to appear, and its map
+location kept changing. Wandering the fields in growing irritation at
+the relentless heat, he eventually found it perched on a fence post by
+an open field. As he moved closer it flew off, looking every bit the
+part of a living corvid bird, and settled again some distance away, eyes
+locked on his. Each time he got closer it took off again, stubbornly
+maintaining the same distance from him. Exasperated, he tapped at his
+wrist computer to command it to shut down and enter self-diagnostic
+mode. Looking up, he saw the drone’s camera eyes still staring hard at
+him. Under its uncanny, crow-like gaze Dent felt for a moment that it
+was evaluating him, judging him as he stood breathing hard through his
+mask, oxygen meter gradually dropping lower and lower, sweat dripping
+down his forehead and under his arms. Then the bird’s body stiffened and
+folded into a neat triangular shape, and it was again nothing more than
+a piece of machinery, red indicator light pulsating as it dutifully
+scanned itself to find the cause of its own deviancy.</p>
+<h1 id="section-4">4</h1>
+<p>The first of the Georges Island earthquakes occurred while Dent, like
+many other residents, was returning to work from lunch. Aside from its
+novelty as the first earthquake experienced by any human on Romi, it was
+unremarkable in terms of duration and magnitude. While the shaking was
+severe enough to dislodge some wall art and send some dishes off of
+tables, there were no major injuries reported. Dent had forgotten about
+it by the time he went to bed that night, his mind occupied by his work
+instead.</p>
+<p>The second earthquake occurred in the dead of night, after Dent had
+settled into a deep sleep. At first he thought the violent shaking was
+some dream or nightmare, until an earsplitting crack and Thomas’s
+shouting snapped him fully awake. Huddled under their metal dining
+table, Dent watched as every unsecured object in his apartment was
+jolted out of place and sent crashing in all directions. His initial
+hope that it would end quickly faded as the seconds ticked by and turned
+into minutes. The shaking would subside for a time before suddenly
+resuming with even greater intensity, and Dent could feel the ground
+tilting slowly beneath him, as if the earth were a great metal bar
+trying in vain to hold its shape as it was flexed to its breaking point.
+The shaking slowed again to an ominous rumble, and Dent had a mental
+image of that metal bar holding precariously close to the limits of its
+strength, and the sudden violence of the catastrophic failure that was
+sure to come. The table was not fixed to the ground, and he glanced
+around for any safer place to hide. Thomas shook his head and started to
+shout something when the ground dropped out from beneath them. Dent felt
+his arms fling themselves instinctively ahead of him to catch his fall,
+then a moment of intense pain, then nothing at all for a while.</p>
+<p>Dent saw himself lying on his hospital bed. His left leg was elevated
+and fully concealed by a thick cast, but he knew that underneath the leg
+was mangled and useless. He also knew that this was not a vision from
+the future, but of his memory of eight years ago. He saw his accident
+again, forcing himself to not look away as his transport pod collided
+with the reinforced concrete barrier. He watched himself drift in and
+out of consciousness in the interminable time it took for paramedics to
+cut through the jammed door and free his crushed leg. He saw his own
+face, angry and resentful at losing his future as an athlete, skeptical
+at the assurances of his parents and doctors, shocked at the strength of
+his repaired leg, then slightly embarrassed and self-reflective as he
+walked easily out of the hospital with his friends and family. He had
+felt an acute anger at life’s unfairness at the time, and was fully
+ready to go on living with that anger. His body on the other hand
+responded to the tissue and nerve regrowth procedures beyond all
+expectation, and before long he was back to running as if nothing had
+happened. But something had changed in him, and he gradually drifted
+away from the running world and the friends he made there.</p>
+<p>Then he was in a hospital room again, this one more elaborate and
+well-equipped than the last. He saw his father sitting up in the bed,
+chuckling at some joke he’d made. An array of medical devices on wheeled
+stands surrounded the bed. This was also a memory, this one from only a
+few years ago. He saw his father’s face, first relaxed and comfortable,
+then confused, then pinched and creased with frustration, then tired and
+vacant. He had only just become himself again a few years after Dent’s
+mother’s passing when the blood cancer diagnosis came. As the treatments
+failed one after the other, his light dimmed and was extinguished long
+before his body finally gave out. Looking at his father lying in bed
+staring blankly at the ceiling, skin stretched tight over his bones,
+Dent felt that his father was being scraped away into nothing. Dent had
+felt his old anger returning, but this time it carried a feeling of
+futility. Over time the anger subsided, but the feeling of hopelessness
+stayed like a stone in his chest. He felt a heat rising in his face and
+blinked away the tears forming in his eyes.</p>
+<p>Blinking a few more times he realized he was in a different place
+again. At first it was hard to make sense of what he was seeing, and he
+slowly tried to get his bearings. A splash of blood in front of him, the
+source of which he traced back to his forehead. The pair of legs next to
+him belonged to Thomas, sitting dazed but conscious. He turned to look
+at Dent, smiling in relief before leaning back and closing his eyes. The
+small cave they were in turned out to be formed by their dining table,
+which was somehow still upright, surrounded by rubble. Where the
+apartment kitchen had been was now an unobstructed view of the
+surrounding landscape, a field of destroyed buildings. The air was hot
+and still, without even the slightest breeze.</p>
+<p>Dent and Thomas were among the first to regain their senses and start
+coordinating the rescue and relief effort. Charles met them before long,
+his shuttle landing near the apartment complex. He had just been on his
+way back from the space elevator, and had waited out the earthquake
+inside the shuttle, safely suspended in the air. He told them that he
+saw the elevator shaft being ripped apart. They were joined by two other
+security officers who had been patrolling on hoverbikes. The group took
+stock of their supplies, passing out filter masks and counting their
+inventory of food and oxygen tanks. While the natural atmosphere of Romi
+was breathable in the short term, the low oxygen content would cause
+problems for those not acclimated, and a few hours of exposure could
+result in a dangerous buildup of toxins. Their first priority would be
+to help any survivors.</p>
+<p>Dent sent a signal to activate any robots in the area. A group of six
+mostly undamaged personnel bots gathered within a few minutes, along
+with a flock of camera drones. The security team and the robots began
+combing the wreckage of the apartment complex, as a steady stream of
+able-bodied survivors arrived at the camp, drawn by the electric
+torchlight around its perimeter. The arrivals were quickly put to use
+standing up temporary atmosphere shelters, and those with medical
+experience set up a field hospital that quickly filled with the injured.
+In greater numbers were the dead, which Dent and the others had to leave
+where they lay for the time being. Among them were the young couple and
+their child, whose broken bodies Dent found laying far from each other.
+Dent imagined their last moments of terror before being thrown from
+their upper-floor apartment. As he came across more and more of the
+familiar faces he’d come to know however briefly, he identified them in
+the resident database and marked the location of their bodies. Each
+database entry presented him with a short biography and identification
+photo, he hoped that he would never forget their names and faces. But
+amidst other concerns they were already fading from his mind.</p>
+<p>As the day wore on people worked in shifts, needing to rest often in
+the growing heat. By midday the heat became unbearable and almost
+everyone crowded into the bubbles of the atmosphere shelters. The robots
+continued to work tirelessly and efficiently throughout the day,
+bringing a steady stream of survivors to the hospital. By evening that
+stream had dried up, and instead the bodies of the dead had begun to
+flow in. As soon as the first bodies arrived, people began to emerge
+from the shelters, gathering in small crowds. Although Dent and other
+security officers worked to quickly identify the dead and notify any
+surviving family or friends in the camp, the crowd only grew. The
+unmistakable silhouette of a personnel bot cradling a body in its arms
+would elicit a flurry of shouting and nervous anticipation, and some
+would run ahead to meet the robot and see the body. Dent tried to
+persuade them to return to the shelters and rest but most refused, and
+although he worried a little about their supply of bottled oxygen, in
+the end he let them be. As the light faded, he watched as they talked
+about their loved ones, shared words of encouragement, and made new
+friends in spite of everything. Even as the night grew deeper and the
+robots stopped coming, a few still lingered outside, their faces
+illuminated by electric torchlight. Dent, Thomas, and Charles brought
+them food and drink and sat with them for a while.</p>
+<p>Among the group was Maxine, the shipping company executive Dent had
+met soon after arriving on Romi. She was waiting for her daughter, she
+told him. Dent didn’t recall her living with a daughter, and on telling
+her this she laughed. “She never left her room. She couldn’t adjust to
+living here. Believe me I tried to help her, I kept her enrolled in her
+old school, I paid for counseling and neural mods, everything.” As she
+turned her head, the metal of her neural accelerator unit caught the
+torchlight and glowed a bright white. “Disasters can happen anywhere. It
+was the right decision to come here, for the company and our future.
+Based on everything I knew, I know it was the right decision. She would
+have realized that too, when she got older.” She was muttering quickly
+and seemed to be talking to herself. Then she went quiet for a time, and
+Dent could see her eyes were welling up with tears which she quickly
+blinked away. When she spoke again she spoke slowly, each word seeming
+to take effort. “I know she’s probably dead and there’s nothing I can do
+waiting out here. I should just go inside and get some sleep. But I’ll
+wait a little while longer.”</p>
+<p>Saying goodnight to the group standing vigil outside, Dent and Thomas
+followed Charles to his shuttle where they planned to spend the night.
+They had already instructed other security officers to establish a
+perimeter around the camp and setup a monitoring routine for the robots.
+It was standard security procedure and in truth Dent wasn’t thinking of
+any specific concerns. The shock and exhaustion of the past day had
+wiped almost everything else from their minds.</p>
+<h1 id="section-5">5</h1>
+<p>Although he received the camera drone’s activity alert first, Dent
+didn’t notice it until much later. In the quiet moments before going to
+sleep he had started to notice the effects of the physical trauma he’d
+sustained - bruised muscles, a hairline fracture in the right arm, and a
+moderate concussion. Without any activity to distract him, the pain took
+its place, and he felt utterly exhausted. Thomas seemed to be in better
+condition, but from the way he stumbled to his cot, so unlike his
+usually composed and efficient way of moving, Dent could tell he was
+also struggling. Dent found a pack of painkillers in the shuttle’s
+medkit, swallowed two, then tossed the pack onto Thomas’s chest where he
+lay. Thomas smiled and gave a quick thumbs up before taking a few pills
+and closing his eyes. Charles was already asleep, sitting up in one of
+the shuttle’s passenger chairs. Climbing into a cot, Dent felt his
+consciousness fade as soon as he lay down. The soft vibration of the
+alert on his wrist computer went unnoticed.</p>
+<p>In his half-asleep state, the piercing shrill of the proximity alarm
+sounded to Dent like a person’s scream, but unnaturally high-pitched and
+unwavering in tone. It was an impossible sound to ignore, and despite
+his exhaustion Dent was out of bed almost immediately. Thomas was
+somehow already at the door, pulling on a mask and plugging in an oxygen
+bottle. As the shuttle door opened, the artificial scream of the
+proximity alarm merged with the real screams of people. Dent froze
+mid-step at the sound, but Thomas barely seemed to notice and was
+already out the door. Dent quickly doubled back and picked up his
+pistol. It had been issued to him on his first day of work on Romi, but
+he hadn’t had much occasion to use it, and it felt heavy and foreign in
+his hands. Telling Charles to stay and lock the shuttle doors behind
+him, Dent pulled on his mask and stepped out into the hot night air.</p>
+<p>Dent could see Thomas standing in the distance near one of the
+smaller atmosphere shelters, large enough for around four people.
+Illuminated from below by electric torches on the ground, he was
+scanning the horizon with gun drawn. Some of the shelter’s struts were
+snapped and the outer sheeting had been ripped away. As he approached,
+Dent saw the insides of the shelter were stained with blood. The floor
+of the shelter was a pile of gore, barely identifiable as human remains.
+Thomas suddenly shouted, “On your 3!” and Dent’s ears were filled with
+the sound of gunfire. He turned to his right in time to see a black
+shape bearing down on him with incredible speed, before breaking off and
+turning away in a wide circle. On all fours, long strides easing to a
+slow gallop, Dent could now make out the long limbs and elongated jaws
+he had last seen from the safety of a security monitor. Its cheeks were
+wet and matted with blood, and a pair of pitch black eyes seemed to
+looking at everything and nothing. As it slowed its body jerked and
+twisted suddenly, and Dent realized that Thomas’s shots had indeed found
+their target. The creature seemed to realize this at the same time and
+stopped, hunching over and glancing around its body in confusion. Caught
+in brief flashes of light as Thomas opened fire again, Dent could see
+the creature covering its face with its hands, staggering backwards for
+a few moments before turning and running into the darkness.</p>
+<p>Reconstructing the timeline of the creature’s attack from automated
+alerts and drone footage, they found that the creature had first been
+seen moving in the rubble outside the camp perimeter, triggering the
+first activity warning. A few minutes later a proximity alert was
+triggered, and only a few seconds after that it struck the group holding
+vigil outside. In half a minute all of them were dead. It then started
+tearing into the smaller shelters one by one. Shortly after Thomas and
+Dent arrived. In total the incident lasted around four minutes, and left
+fifteen people dead. Dent knew that one of them was Maxine, but he could
+not recognize anything familiar about her in the torn-apart body in
+front of him. For a long time he sat reading her database entry over and
+over. Her biography listed many accomplishments and awards through her
+education and career, and noted she was a highly respected figure in
+interplanetary shipping. The only hint of a life beyond that was
+contained in a small box below her name:</p>
+<blockquote>
+<p>Spouse: David Rogers (divorced)<br />
+Children: 1</p>
+</blockquote>
+<p>Dent gathered Thomas and the other security officers to review their
+situation. A relief mission from Taurus had been scrambled over the last
+day, but even at near-light speed the first ships would not arrive for
+one month. Technicians had already been on the way to Romi to repair the
+air scrubbers, but they were still around two weeks away and were not
+carrying additional food or medical supplies. Their ship was also
+designed for space-only operation and was meant to dock at the space
+port, with the crew and equipment being sent to the surface via space
+elevator. With the elevator inoperable, it was unclear whether they
+would even be able to land on the planet surface.</p>
+<p>The port itself had sustained significant damage and only a few of
+its structures were still standing. Even so, settlers from all over
+Georges had started congregating there, some looking for shelter, others
+hoping that leaving the planet was still a possibility. Only a few
+vessels capable of escaping the planet’s atmosphere under their own
+power were still functional, and most were already filled to capacity or
+had already left. The survivors from Dent’s housing complex had little
+chance of making it onto one of the remaining launches. Inquiring with
+port authorities about the possibility of relocating to the port, they
+were met with a quick and decisive denial. The port was already beyond
+reasonable capacity, with more people arriving every hour. Dent realized
+he hadn’t fully grasped how many people had come to Romi in the months
+since his arrival. Even the survivors from his housing complex numbered
+over a thousand. Coordinating them to move to another location would be
+time-consuming and difficult given the number of injured.</p>
+<p>Moving was nevertheless an option they seriously considered. The
+speed and brutality of the creature’s attack left Dent and security team
+shaken. All day people were coming up to Dent and other security
+officers, asking or demanding to know what would be done about the
+“maneater”. As discussions stretched into the afternoon, it became clear
+that the only reasonable path forward was to dig in and stay in their
+current encampment for the month or so until the relief mission’s
+arrival. Their supply of food, water, oxygen, and medical supplies would
+actually last far more time, as large quantities were recovered from the
+shipping yards and distributed all over the island. The question of what
+to do about the creature became the primary concern, and it became
+increasingly urgent as daylight faded. Dent and many other officers
+found themselves instinctively looking to Thomas for his opinion, and by
+the time the light was gone their plan was ready.</p>
+<hr />
+<p>This time the piercing shrill of the proximity alarm was something
+Dent anticipated with a nervous excitement. At the sound his binoculars
+shot up to his face, and he could make out long stalking limbs crossing
+the invisible barrier between perimeter fenceposts. The limbs moved
+smoothly and without hesitation, with no obvious sign of the injuries
+Dent knew it was carrying. All at once the limbs exploded into a full
+gallop, and Dent felt himself and Thomas both tensing in anticipation.
+From their vantage point in the brush overlooking the camp, they could
+see that the creature’s target was a small cluster of shelters closest
+to the perimeter. A man was laying back in a camp chair by the shelters,
+hat over his face. As Dent watched the creature bear down on this man
+through his scope, he could sense Thomas raising a kinetic rifle and
+taking aim. The creature flung its arms forward an instant before
+impact, seizing the man firmly in its grip and tumbling a few times to a
+halt. It then paused for a moment, suddenly aware that the man had
+grappled it back in return. As the creature looked closer at its prey,
+the featureless white mask of a personnel robot stared back, and the
+creature’s head suddenly snapped backward as electricity coursed through
+its body. Its eyes widened a little but otherwise its expression
+remained unchanged, it too a blank unmoving mask. In the brief but
+interminable moment that the creature was frozen in place, Dent suddenly
+had the thought that he had never seen the creature with any other
+expression. Despite the brutality and viciousness of its attacks, its
+face showed no sign of the anger, hatred, or sadism that may have driven
+it. In that moment suspended in time, Dent felt it had decided to go to
+its death carrying the secrets in its mind with it, never to be known by
+another.</p>
+<p>The moment was broken as part of the creature’s head exploded away
+and it fell backward. The round from Thomas’s rifle had taken with it
+one eye and a chunk of skull. Its grip on the robot loosened and the
+synthetic body clattered to the ground. Dent could see smoke rising from
+its flesh, and its hands opened and clenched into fists over and over as
+its muscles flexed uselessly. Thomas was already moving through the
+brush toward the perimeter, and Dent ran after him. He felt a pit
+forming in his stomach as the creature’s uncoordinated contortions and
+writhings resolved into a purposeful crawl. Before Thomas could raise
+his rifle again it had already picked up speed, and the next shot sailed
+harmlessly over its head as it disappeared into the brush. Dent slowed
+his run but Thomas had broken into a sprint, and he yelled with an
+uncharacteristic anger, “Go after him!”</p>
+<p>Dent would never be able to remember exactly what happened after they
+entered the brush. Perhaps it was his head injury and lack of sleep
+finally catching up to him. In any case he felt that he and his friend
+had entered into another dimension, where all that existed were rocks,
+wilderness, and the paradoxical fear of hunting while being hunted at
+the same time. The infrared night vision that Thomas’s augmented eyes
+boasted, and similar capabilities of Dent’s handheld scope, should have
+made the hunt easy. But the already hot Romi air became like the steam
+of a boiling pot in the forest’s humidity, and the forest turned out to
+be alive with a surprising number of animals. Again and again they
+seemed to catch sight of the creature before it transformed into the
+shape of some reptile or primate or lemur-like animal hanging from the
+trees. As they stumbled over rocks and between trees, trying in growing
+desperation to come up with a plan and make sense of their surroundings,
+Dent felt that the creature had somehow mustered the life of the planet
+itself against them and was watching them, waiting for its chance to
+spring from the darkness and throttle them both to death. There was no
+light from any of Romi’s moons, and although star light shined above
+them, it was fully hidden behind the forest canopy. Each time he lowered
+his scope, the visual cacophony of brightly colored heat signatures
+disappeared, replaced by complete darkness. His wide open eyes could see
+nothing, and all sounds seemed to be swallowed up by the thick hot air.
+Even the pulsing pain in his head and tired legs faded away and he felt
+weightless, suspended in a universe of utter nothingness. He thought
+about a distant future when the seas of existence had dried up, the
+earth below cracking and disintegrating until nothing was left but the
+void he now floated in. The last speck of his being lingered there for a
+time before also disappearing without a trace.</p>
+<p>A sudden explosion of pain brought him back into existence. The earth
+reappeared and he was pressed suffocatingly into it. His body reformed
+around him and was immediately broken in several places, first a leg,
+then an arm, then a few ribs. As he opened his eyes, the universe around
+him seemed to consist only of an animal’s blank stare, and the tangled
+fur of limbs crushing him into the ground. Then humanity appeared in the
+universe, and it took the form of a familiar friend. Light and fire
+erupted from the instruments in his friend’s arms, but the animal lashed
+out and he was cast to the ground. His friend lay fallen, but the animal
+did not press its advantage. It turned and staggered away. Black blood
+ran from its sides and spilled on the earth, leaving a river in its
+wake.</p>
+<p>The creature’s body was found in the morning, washed up on the beach
+on the other side of the forest. Its fur was soaked wet, and its lungs
+were half filled with water. According to biologists, its muscle mass
+was smaller than normal specimens, likely due to malnourishment. A photo
+was produced, and Dent saw in it the thin, withered limbs of an old man.
+As the small crowd of visitors around his cot lost interest in this
+topic and began talking about the state of their supplies and the status
+of the relief mission, he looked at his friend Thomas, chest and
+shoulders bandaged, sleeping in the bed next to his. The doctor injected
+him with something and he drifted to sleep. In his dreams, he saw mice
+playing in fields of wheat. He dreamed of a newborn baby, cradled in its
+father’s arms. He dreamed of a mother, holding her daughter’s hand. He
+dreamed of himself and Thomas as children, running side by side. He
+dreamed of a couple walking down a beach with their child, entering the
+water and swimming away. A young boy, sitting alone, watched them for a
+time. He seemed to be thinking about something, but when Dent asked, he
+shook his head and stayed silent. He then followed the family’s
+footprints to the sea, and swam out into the waves. Dent watched the boy
+swim out toward the horizon until he was gone.</p>
+<h1 id="section-6">0</h1>
+<p>Outside the shuttle window, thousands of ships slowly drifted. Some
+were heading toward space docks, suspended at the end of countless thin
+tubes emanating from Earth’s surface like flower stamens. Others were
+departing into open space, to destinations near and far. Some people on
+the ships slept peacefully. Others, like Dent, sat and watched the ever
+shifting panorama. His shuttle reached the end of its landing track, and
+the disembarkation tunnel stretched out to meet it. The restraining arms
+around his chest released him, and he joined the flow of other
+passengers, floating down the walkway to the ship’s exit as one.</p>
+<p>Bumped and jostled by people from all directions, he wondered whether
+the ports on Romi were just as crowded now. Only a week after the relief
+mission’s arrival, the atmospheric catalyst had been released,
+saturating the planet and creating air perfectly breathable for humans.
+A terraforming fleet descended on the planet and swiftly set to work
+reshaping the land and constructing new buildings. Even the cause of the
+planet’s geological instability had apparently been discovered and dealt
+with, although the explanation was beyond Dent. He was told that the
+original planetary architects’ less heavy-handed approach to
+terraforming had been widely criticized after what happened on Romi, and
+their replacements rushed to turn the situation around quickly to
+restore confidence and protect the investors’ interests. Dent’s news
+feed included an article covering an analysis of the new atmosphere’s
+effect on native life, which concluded vaguely that some species were
+expected to adapt and others were not. The article ended on the positive
+note that shipments of crops and wildlife well suited for the planet
+were already on the way. It stated that in the six months since the
+quake, the population of Georges Island had passed 2 million. Its many
+beachfront properties commanded high prices despite their small size, so
+Charles had told him.</p>
+<p>Charles had tried to persuade Dent and Thomas to return, but Thomas
+had already decided to rejoin to the Space Marines as a combat
+instructor. For his part, Dent knew that he would never see the planet
+again with his own eyes. On their occasional calls, they all agreed to
+meet again one day. When that would be, Dent didn’t know.</p>
+<p>On the short flight to Sarah’s flat, her daughters alternated between
+peppering “Uncle Dent” with questions about his time on Romi, and
+falling suddenly silent as some message or notification flashed by on
+their retinal displays. Dent remembered he had always been disconcerted
+whenever he saw the same flash in Thomas’s eyes, self-conscious of his
+working-class wrist computer. The girls’ rapid speech and even faster
+thinking reminded him of Maxine, and he knew that a newer, more powerful
+version of her neural accelerator hummed discreetly inside their heads.
+As a dull throb of pain rose in his chest, then his limbs, he felt time
+scraping away at him. In the last month he spent on Romi, without the
+help of proper medical facilities, his body had mended its injuries the
+best way it knew how. The later procedures he’d undergone at the
+hospital on Luna had mixed results, puzzling his doctors. In the end
+he’d decided to live with the pain instead of opting for full cybernetic
+or organic replacements. The doctors and his sister had nodded
+sympathetically and expressed their understanding at his decision, but
+Dent wondered if secretly they felt he was foolish, mentally impaired,
+too traumatized by the incident to think clearly. Maybe they were right.
+When the girls started asking about his injuries Sarah quickly cut in
+and changed the subject. He saw them look meaningfully at each other,
+before launching into another topic as if nothing had happened.</p>
+<p>Sarah had booked a private afternoon time slot at the complex’s pool
+for the girls, and as they unpacked she hesitantly asked Dent if he
+would like to come. Dent noticed her glance at his arm, scars faded but
+still visible. He pretended not to notice and casually told her he’d
+love to, that swimming would be good for his muscles. In truth he was a
+little worried that being in the water would bring him back to Romi, his
+Romi, the place where so many he had known and not known had ceased to
+exist, forever disappearing beneath the waves of the great sea of
+existence. All at once his shoulders heaved and he cried freely. His
+sister sat by his side and hugged him tight.</p>
+<p>The pool was nothing like Dent expected. Where he pictured a clean,
+featureless rectangle, there was instead an undulating beach of fine
+white sand, sloping gently into a cove of blue water. The occasional
+shimmer gave notice to the illusion, created by invisible arrays of
+holographic projectors, but only slightly. If they were turned off, it
+would be plain that only the sand and the cleverly designed pool itself
+were actually there. But looking at the clear summer sky, the palm trees
+swaying in the distance, and the schools of brightly colored fish
+circling the waters, Dent’s previous worry faded away. He knew that
+among all these imaginary things, his family was there, and the reality
+of their presence was enough for him.</p>
+<p>Sarah and her daughters splashed into the water first, while Dent
+stretched his muscles. This time the dull pain felt oddly comforting,
+like an old friend that troubles you. These muscles bore Dent into the
+water, and fish scattered around him. The girls knew that the fish would
+try to keep away, so as not to give away the illusion if one passed
+through you like a ghost. They swam this way and that, trying to corner
+one into giving up the game. Tiring of this they dove ahead into the
+furthest depths of the pool. Sea creatures of all kinds floated around
+them. The simulation no longer seemed to care about keeping them away,
+and they passed through clouds of jellyfish, giant sunfish, and swarms
+of rays, their human bodies melding with fins and scales and the smooth
+shining flesh of sea creatures. Dent had a vision of the two children
+growing old under the waves, taking the shape of an octopus or a crab
+drifting across the ocean, or of an urchin or clam resting motionless in
+the depths. He saw their lifetimes repeating endlessly into infinity.
+Then the vision was gone and he saw two humans swimming toward the
+surface, to their mother and the sun.</p>
+</body>
+</html>
