@@ -5,6 +5,7 @@ epub:
 
 html:
 	pandoc frontmatter.md maneater.md title.txt -c html.css -o maneater.html --standalone
+	cp maneater.html index.html
 
 pdf:
 	pandoc frontmatter.md maneater.md title.txt -c html.css -o maneater.pdf --standalone --pdf-engine=C:\Users\arich\AppData\Local\Programs\wkhtmltopdf\bin\wkhtmltopdf
