@@ -30,6 +30,8 @@ p.author {
   text-align: center
 }
 
-#section + p {
-  text-align: center
+.dedication + p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
 }
