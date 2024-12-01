@@ -37,7 +37,7 @@ Dent felt his hands clasp tighter around his coffee. Its warmth spread deeper in
 
 # 2
 
-Being of modest means, Dent had only ever traveled sub-light. The thought of being put under, frozen, and placed in the motion dampening units necessary for near-light brought back a memory from childhood. An normal-looking freezer at this friend's house turned out to be filled with gallon-size plastic bags, each packed tight with frozen mouse corpses. "For the snakes", he explained, seeing Dent's alarmed expression. Dent was no longer so alarmed after this explanation, but the image of countless mouse bodies pressed into piles of flesh remained an uncomfortable memory.
+Being of modest means, Dent had only ever traveled sub-light. The thought of being put under, frozen, and placed in the motion dampening units necessary for near-light brought back a memory from childhood. A normal-looking freezer at this friend's house turned out to be filled with gallon-size plastic bags, each packed tight with frozen mouse corpses. "For the snakes", he explained, seeing Dent's alarmed expression. Dent was no longer so alarmed after this explanation, but the image of countless mouse bodies pressed into piles of flesh remained an uncomfortable memory.
 
 Thomas had no such discomfort or unpleasant associations with the idea of near-light travel. Having been introduced to the practice at a relatively young age upon entering the armed forces, he saw it as little different from a standard atmospheric flight or trip through the solar system. If anything it was more pleasant than either of those. One drifted off in the comforting vibration of their stasis pod and awakened on a new world, the old one fading from mind as quickly as a dream.
 
